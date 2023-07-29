@@ -1,9 +1,9 @@
-import { Component } from '@angular/core'; // --> a @angular-t, by default a node_modules-ben keresi
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.sass']
 })
 export class AppComponent {
   title = 'angular_project'; //--> adattag, ha típusosítani szeretnénk, azt így lehet --> 

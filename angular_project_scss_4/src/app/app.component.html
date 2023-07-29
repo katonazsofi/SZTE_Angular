@@ -1,0 +1,24 @@
+
+<app-menu (selectedPage)="changePage($event)"></app-menu>
+<!-- <ng-container [ngSwitch]="page">
+    <ng-container *ngSwitchCase="'main'">
+        <div class='main-component'>
+            <app-main></app-main>
+        </div>
+    </ng-container>
+
+    <ng-container *ngSwitchCase="'gallery'">
+        <app-gallery></app-gallery>
+    </ng-container>
+
+    <ng-container *ngSwitchCase="'contact'">
+        <app-contact>
+            <h1>Contact Page (only appears if ng-content is added in component html)</h1>
+        </app-contact>
+    </ng-container>
+    <ng-container *ngSwitchDefault>
+        <h1>Not found...</h1>
+    </ng-container>
+</ng-container> -->
+
+<router-outlet></router-outlet>

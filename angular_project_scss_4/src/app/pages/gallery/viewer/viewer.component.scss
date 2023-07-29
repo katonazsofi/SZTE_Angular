@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.image {
+    width: 20%;
+    height: auto;
+}
+
+.fullLineText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-size: large;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+table, th, tr {
+    border: 1px solid black;
+}
+
+.table-header-even {
+    background-color: #df0;
+}
+
+.table-header-odd {
+    background-color: #55a;
+}

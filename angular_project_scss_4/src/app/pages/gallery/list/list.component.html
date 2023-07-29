@@ -1,0 +1,5 @@
+<div>
+    <select (change)="reload()" [(ngModel)]="chosenPicture">
+        <option *ngFor="let obj of koreanWordsInput" [ngValue]="obj">{{obj.id}}</option>
+    </select>
+</div>
